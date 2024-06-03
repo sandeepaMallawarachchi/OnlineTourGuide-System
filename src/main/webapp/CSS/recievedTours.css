@@ -1,0 +1,117 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.149), rgba(0, 0, 0, 0.242)), url(images/dashboardbg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+   font-size: 50px;
+   line-height: 64px;
+   color: #222;
+}
+
+h2{
+   font-size: 46px;
+   line-height: 54px;
+   color: #222;
+}
+
+h4{
+   font-size: 20px;
+   color: #222;
+}
+
+h6{
+   font-weight: 700;
+   font-size: 12px;
+}
+
+p{
+    position: absolute;
+   font-size: 18px;
+   font-weight: bold;
+   margin: 120px 0 0 1250px;
+}
+
+button{
+   border-radius: 4px;
+   cursor: pointer;
+   border: none;
+   outline: none;
+}
+
+#topic{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#details{
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+}
+ 
+table{
+    width: 100%;
+}
+
+td, th{
+    width: 100px;
+    border: 0.5px solid #fff;
+    background-color: rgb(245, 245, 245);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+#de{
+	width: 150px;
+}
+
+#date{
+	width: 150px;
+}
+
+input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.accept{
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(3, 105, 200);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.accept:hover{
+    cursor: pointer;
+    background-color: rgb(1, 87, 167);
+}
+
+.reject{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reject:hover{
+    cursor: pointer;
+    background-color: rgb(219, 4, 4);
+}

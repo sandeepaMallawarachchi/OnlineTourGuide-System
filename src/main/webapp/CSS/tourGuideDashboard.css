@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body{
+    background-image: url(images/useraccbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+   font-size: 50px;
+   line-height: 64px;
+   color: #222;
+}
+
+h2{
+   font-size: 46px;
+   line-height: 54px;
+   color: #222;
+}
+
+h4{
+   font-size: 20px;
+   color: #222;
+}
+
+h6{
+   font-weight: 700;
+   font-size: 12px;
+}
+
+#p{
+	width: 200px;
+	position: absolute;
+	margin: -200px 0 0 840px;
+}
+
+p{
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold; 
+   color: #fff;
+}
+
+button{
+   border-radius: 4px;
+   cursor: pointer;
+   border: none;
+   outline: none;
+}
+
+#topic{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+#img{
+    position: absolute;
+    width: 120px;
+    margin: 0px 0 0 1280px;
+}
+
+#details{
+    margin-top: 120px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+
+}
+
+table, td{
+    width: 100%;
+    border: 0.5px solid #fff;
+    background-color: rgb(245, 245, 245);
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+td{
+    width: 0;
+}
+
+#td{
+    background-color: rgb(231, 231, 231);
+}
+
+input{
+    width: 40%;
+    margin-left: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+#buttons{
+	position: absolute;
+	width: 300px;
+	margin: -290px 0 0 -400px;
+}
+
+#buttons input{
+	width: 80%;
+	height: 50px;
+	margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+#buttons input:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #222;
+    transition-duration: 0.4s;
+}
+
+#logout{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logout:hover{
+	cursor: pointer;
+	background-color: rgb(223, 0, 0);
+}
+
+#lo{
+    position: absolute;
+    margin: 0 0 0 1280px;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1{
+   font-size: 50px;
+   line-height: 64px;
+   color: #222;
+}
+
+h2{
+   font-size: 46px;
+   line-height: 54px;
+   color: #222;
+}
+
+h4{
+   font-size: 20px;
+   color: #222;
+}
+
+h6{
+   font-weight: 700;
+   font-size: 12px;
+}
+
+p{
+   font-size: 16px;
+   color: white;
+   margin: 15px 0 20px 0;
+}
+
+button{
+   font-size: 14px;
+   border-radius: 4px;
+   cursor: pointer;
+   border: none;
+   outline: none;
+}
+
+body{
+   width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.389)) ,url(images/registerbg.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+#topic{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+form{
+    width: 25%;
+    padding: 20px;
+    margin: 50px 0 0 37.5%;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: 1.2px rgb(119, 119, 119) solid;
+    padding-left: 15px;
+}
+
+input:focus{
+    outline: 1.2px rgb(1, 87, 167) solid;
+}
+
+textarea{
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    outline: 1px rgb(119, 119, 119) solid;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+#check{
+	width: 15px;
+	margin-left: 0;
+    border: none;
+    outline: none;
+}
+
+#terms{
+	margin: -32px 0 0 25px;
+}
+
+#submit{
+    background-color: rgb(4, 165, 4);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+#p{
+    text-align: center;
+}
+
+#a{
+    margin-left: 665px;
+    text-decoration: none;
+}
+#a button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(15, 107, 245);
+    margin-bottom: 20px;
+}
+#a button:hover{
+	background-color: rgb(9, 91, 217);
+}
