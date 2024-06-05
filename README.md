@@ -13,7 +13,7 @@ The online tour guide system is a comprehensive dynamic web application built us
 - Singleton Design Pattern
 By leveraging these OOP principles, the online tour guide system achieves a modular, scalable, and maintainable codebase, enhancing both development efficiency and user experience.
 
-My Contributions to the Project:
+### My Contributions to the Project:
 
 - Login/Register
 - User Dashboard
